@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>舌尖上的狮城</title>
+    <meta name="description" content="Theme for Bite of SG website">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="canonical" href="http://localhost:1234/search.html">
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+  <body>
+
+    <main class="results-wrapper">
+      <div class="c-results-header">
+  <a href="/"><svg class="o-icon c-results__icon" viewBox="0 0 90 112.5"><path d="M27.5,23.2h-7L13,31.9c-0.3,0.3-0.5,0.6-0.8,0.9c-0.1,0.1-0.2,0.2-0.3,0.4c-0.8,0.9-1.5,1.7-2.3,2.6  c0.8,0.9,1.6,1.8,2.3,2.8c0.3,0.4,0.6,0.8,1,1.1l-0.1,0l5.1,5.9c0.8,0.9,1.5,1.8,2.3,2.7v0l0.3,0.3h7l-8.6-10l-2-2.3l2,2.3  c16.1,0.1,32.3,0.1,48.5,0.2c2.3,0.1,4.2,1.1,5.6,2.5c1.4,1.4,2.2,3.3,2.2,5.2l0,0.4c-0.1,1.6-0.8,3.2-2,4.5  c-1.1,1.2-2.7,2.2-4.6,2.5c-8.7,0-17.5,0-26.2,0v5.3c8.9,0,17.7,0,26.6,0h0.2l0.2,0c3.1-0.6,5.8-2.1,7.7-4.2c2-2.1,3.2-4.9,3.4-7.8  c0-0.2,0-0.4,0-0.7c0-3.4-1.4-6.5-3.7-8.9c-2.3-2.4-5.5-4-9.2-4.1l-0.1,0h-0.1c-16.2-0.1-32.3-0.1-48.5-0.2L27.5,23.2"/></svg></a>
+  <span class="c-results__title">思味冒菜</span>
+</div>
+
+<div class="c-results-restaurants o-layout-2">
+  <div class="o-layout__item o-flex">
+    <div class="c-restaurant__img">
+      <img src="http://localhost:1234/img/search-square.png" alt="">
+    </div>
+    <div class="c-restaurant__txt">
+      <h3>思味冒菜</h3>
+      <p>思味冒菜是由在新10多年的两位SM2四川学子合伙经营的，是新加坡第一家四川冒菜馆。</p>
+      <p class="o-cuisine c-asian"><span>日韩美食</span></p>
+    </div>
+  </div>
+  <p>不是你要找的餐厅？<span id="jsSearchTrigger" class="u-underline">点我重新搜索餐厅</span></p>
+</div>
+
+<div class="c-results-articles o-layout-3">
+  <h2>精华帖</h2>
+  <div class="o-layout__item o-card" data-sr="enter bottom vFactor 0.3">
+    <div class="o-card__img">
+      <img src="http://localhost:1234/img/search-rect1.png" alt="">
+    </div>
+    <div class="o-card__txt">
+      <p class="o-cuisine c-sea"><span>东南亚美食</span></p>
+      <h3>最受欢迎的日料店</h3>
+      <p>管樂有才原不忝 煙花三月下揚州 賈氏窺簾韓掾少 美人相並立瓊軒 武侯祠屋常鄰近</p>
+    </div>
+  </div>
+  <div class="o-layout__item o-card" data-sr="enter bottom vFactor 0.3">
+    <div class="o-card__img">
+      <img src="http://localhost:1234/img/search-rect1.png" alt="">
+    </div>
+    <div class="o-card__txt">
+      <p class="o-cuisine c-bar"><span>酒吧</span></p>
+      <h3>最受欢迎的日料店</h3>
+      <p>管樂有才原不忝 煙花三月下揚州 賈氏窺簾韓掾少 美人相並立瓊軒 武侯祠屋常鄰近</p>
+    </div>
+  </div>
+  <div class="o-layout__item o-card" data-sr="enter bottom vFactor 0.3">
+    <div class="o-card__img">
+      <img src="http://localhost:1234/img/search-rect1.png" alt="">
+    </div>
+    <div class="o-card__txt">
+      <p class="o-cuisine c-hightea"><span>High Tea</span></p>
+      <h3>最受欢迎的日料店</h3>
+      <p>管樂有才原不忝 煙花三月下揚州 賈氏窺簾韓掾少 美人相並立瓊軒 武侯祠屋常鄰近</p>
+    </div>
+  </div>
+</div>
+<button type="button" class="o-btn">查看更多</button>
+
+    </main>
+
+    <div class="c-search" id="jsSearchModal">
+  <div class="c-search-header"><span>搜查</span></div>
+  <form class="c-search-form" action="search.html">
+    <div class="c-form-field c-form-input o-flex">
+      <input type="search" name="search" placeholder="输入关键字 立即搜索" id="searchInput">
+      <div class="o-select-with-bg">
+        <select>
+          <option>全部</option>
+          <option>帖子</option>
+          <option>餐厅</option>
+        </select>
+      </div>
+      <label for="searchInput">没有头绪？试试下面这个</label>
+    </div>
+    <div class="c-form-field c-form-select">
+      <span>我是</span>
+      <select>
+        <option>重口味</option>
+        <option>小清晰</option>
+        <option>高富帅</option>
+        <option>小公举</option>
+        <option>夜猫子</option>
+        <option>肉食者</option>
+        <option>素食者</option>
+      </select>
+    </div>
+    <div class="c-form-field c-form-select">
+      <span>想跟</span>
+      <select>
+        <option>朋友们</option>
+        <option>同学们</option>
+        <option>同事们</option>
+        <option>家人们</option>
+        <option>另一半</option>
+        <option>闺蜜们</option>
+        <option>宠物</option>
+        <option>自己</option>
+      </select>
+    </div>
+    <div class="c-form-field c-form-select">
+      <span>去</span>
+      <select>
+        <option>尝鲜</option>
+        <option>约会</option>
+        <option>庆生</option>
+        <option>取餐</option>
+        <option>商谈</option>
+        <option>拍照</option>
+        <option>放松</option>
+        <option>趴体</option>
+      </select>
+    </div>
+    <button class="o-btn">开始搜索吧</button>
+  </form>
+</div>
+
+    <footer>
+  <div class="c-footer-contact">
+    <p class="c-title">关注我们</p>
+    <p>与舌尖一起探索，发掘与分享美食</p>
+    <ul class="c-social-icons">
+        <li><a href="" class="c-wechat"></a>WeChat</li>
+        <li><a href="" class="c-weibo"></a>Weibo</li>
+        <li><a href="" class="c-email"></a>Email</li>
+    </ul>
+  </div>
+  <div class="c-footer-copyright">
+    <img src="http://localhost:1234/img/logo-alt.png" class="c-site-logo" alt="Bite of SG">
+    <p class="u-no-margin">© 2015, A BITE OF SG. All rights reserved</p>
+  </div>
+</footer>
+
+
+    <script src="/js/scripts.js"></script>
+  </body>
+
+</html>

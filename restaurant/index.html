@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Restaurant</title>
+    <meta name="description" content="Theme for Bite of SG website">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="canonical" href="http://localhost:1234/restaurant/">
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+  <body>
+
+    <header>
+  <a href="http://localhost:1234"><img src="http://localhost:1234/img/logo.png" class="c-site-logo" alt="Bite of SG"></a>
+</header>
+
+
+    <main class="restaurant-wrapper">
+      <section class="c-restaurant">
+  <div class="c-restaurant__img">
+    <img src="http://localhost:1234/img/restaurant.png" alt="Restaurant image">
+  </div>
+  <div class="c-restaurant__info">
+    <div class="u-wrapper">
+      <div class="u-wrap-left">
+        <h1>BRIDGE</h1>
+        <p>西式料理</p>
+        <address>31 Seah Street<br>Singapore 188387</address>
+      </div>
+      <div class="u-wrap-right">
+        <img src="http://localhost:1234/img/choice.png" alt="" class="c-restaurant__choice">
+      </div>
+    </div>
+    <table>
+      <tr>
+        <td>Open hours:</td>
+        <td>Daily: 09:30 - 22:30</td>
+      </tr>
+      <tr>
+        <td>Average price:</td>
+        <td>$50</td>
+      </tr>
+      <tr>
+        <td>Website:</td>
+        <td>http://www.dineatbridge.com.sg</td>
+      </tr>
+    </table>
+    <div class="c-restaurant__desc">
+      <p>被纽约时报评选为全球十大热点之一，就冲这个这个名头我们的十大浪漫餐厅推介榜中也必须得有他的一席之地。在这里你可以边吃饭，便低头看着下面像点点一般密密麻麻的人群或者眺望前方360度无死角的观赏者滨海湾金沙的夜景，整个人沉浸在城市的灯火之中！饭后你也可以带着你的爱人去酒吧喝一杯，你侬我侬 (=^_^=)！!</p>
+    </div>
+  </div>
+  <div class="c-restaurant-gallery js-flickity" data-flickity-options='{ "wrapAround" : true, "cellAlign": "center", "lazyLoad": 2 }'>
+    <div class="c-gallery-cell"><a href="https://placehold.it/125/dc143c/ffffff" rel="simplebox" title=""><img src="https://placehold.it/125/dc143c/ffffff" alt=""></a></div>
+    <div class="c-gallery-cell"><a href="https://placehold.it/125/ff7f24" rel="simplebox" title=""><img src="https://placehold.it/125/ff7f24" alt=""></a></div>
+    <div class="c-gallery-cell"><a href="https://placehold.it/125/ffd700" rel="simplebox" title=""><img src="https://placehold.it/125/ffd700" alt=""></a></div>
+    <div class="c-gallery-cell"><a href="https://placehold.it/125/adff2f" rel="simplebox" title=""><img src="https://placehold.it/125/adff2f" alt=""></a></div>
+  </div>
+  <div class="c-restaurant-btns">
+    <button type="button" class="o-btn-alt">分享到微博</button>
+    <button type="button" class="o-btn-alt">分享到朋友圈</button>
+  </div>
+</section>
+
+<section class="c-related">
+  <h2>猜你会喜欢</h2>
+  <div class="c-related-gallery js-flickity" data-flickity-options='{ "initialIndex": 1, "wrapAround" : true }'>
+    <div class="c-gallery-cell o-card">
+      <div class="o-gallery__img">
+        <img src="http://localhost:1234/img/image.png" alt="">
+      </div>
+      <div class="o-card__txt">
+        <p class="o-cuisine c-asian"><span>日韩料理</span></p>
+        <h3>最受欢迎的日料店</h3>
+      </div>
+    </div>
+    <div class="c-gallery-cell o-card">
+      <div class="o-gallery__img">
+        <img src="http://localhost:1234/img/image.png" alt="">
+      </div>
+      <div class="o-card__txt">
+        <p class="o-cuisine c-asian"><span>日韩料理</span></p>
+        <h3>最受欢迎的日料店</h3>
+      </div>
+    </div>
+    <div class="c-gallery-cell o-card">
+      <div class="o-gallery__img">
+        <img src="http://localhost:1234/img/image.png" alt="">
+      </div>
+      <div class="o-card__txt">
+        <p class="o-cuisine c-asian"><span>日韩料理</span></p>
+        <h3>最受欢迎的日料店</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <div class="c-search" id="jsSearchModal">
+  <div class="c-search-header"><span>搜查</span></div>
+  <form class="c-search-form" action="search.html">
+    <div class="c-form-field c-form-input o-flex">
+      <input type="search" name="search" placeholder="输入关键字 立即搜索" id="searchInput">
+      <div class="o-select-with-bg">
+        <select>
+          <option>全部</option>
+          <option>帖子</option>
+          <option>餐厅</option>
+        </select>
+      </div>
+      <label for="searchInput">没有头绪？试试下面这个</label>
+    </div>
+    <div class="c-form-field c-form-select">
+      <span>我是</span>
+      <select>
+        <option>重口味</option>
+        <option>小清晰</option>
+        <option>高富帅</option>
+        <option>小公举</option>
+        <option>夜猫子</option>
+        <option>肉食者</option>
+        <option>素食者</option>
+      </select>
+    </div>
+    <div class="c-form-field c-form-select">
+      <span>想跟</span>
+      <select>
+        <option>朋友们</option>
+        <option>同学们</option>
+        <option>同事们</option>
+        <option>家人们</option>
+        <option>另一半</option>
+        <option>闺蜜们</option>
+        <option>宠物</option>
+        <option>自己</option>
+      </select>
+    </div>
+    <div class="c-form-field c-form-select">
+      <span>去</span>
+      <select>
+        <option>尝鲜</option>
+        <option>约会</option>
+        <option>庆生</option>
+        <option>取餐</option>
+        <option>商谈</option>
+        <option>拍照</option>
+        <option>放松</option>
+        <option>趴体</option>
+      </select>
+    </div>
+    <button class="o-btn">开始搜索吧</button>
+  </form>
+</div>
+
+    <footer>
+  <div class="c-footer-contact">
+    <p class="c-title">关注我们</p>
+    <p>与舌尖一起探索，发掘与分享美食</p>
+    <ul class="c-social-icons">
+        <li><a href="" class="c-wechat"></a>WeChat</li>
+        <li><a href="" class="c-weibo"></a>Weibo</li>
+        <li><a href="" class="c-email"></a>Email</li>
+    </ul>
+  </div>
+  <div class="c-footer-copyright">
+    <img src="http://localhost:1234/img/logo-alt.png" class="c-site-logo" alt="Bite of SG">
+    <p class="u-no-margin">© 2015, A BITE OF SG. All rights reserved</p>
+  </div>
+</footer>
+
+
+    <script src="/js/scripts.js"></script>
+  </body>
+
+</html>

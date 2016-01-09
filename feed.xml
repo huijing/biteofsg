@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>舌尖上的狮城</title>
+    <description>Theme for Bite of SG website</description>
+    <link>http://localhost:1234/</link>
+    <atom:link href="http://localhost:1234/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 09 Jan 2016 11:21:11 +0800</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 11:21:11 +0800</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Restaurant</title>
+        <description>&lt;section class=&quot;c-restaurant&quot;&gt;
+  &lt;div class=&quot;c-restaurant__img&quot;&gt;
+    &lt;img src=&quot;http://localhost:1234/img/restaurant.png&quot; alt=&quot;Restaurant image&quot;&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;c-restaurant__info&quot;&gt;
+    &lt;div class=&quot;u-wrapper&quot;&gt;
+      &lt;div class=&quot;u-wrap-left&quot;&gt;
+        &lt;h1&gt;BRIDGE&lt;/h1&gt;
+        &lt;p&gt;西式料理&lt;/p&gt;
+        &lt;address&gt;31 Seah Street&lt;br&gt;Singapore 188387&lt;/address&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;u-wrap-right&quot;&gt;
+        &lt;img src=&quot;http://localhost:1234/img/choice.png&quot; alt=&quot;&quot; class=&quot;c-restaurant__choice&quot;&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Open hours:&lt;/td&gt;
+        &lt;td&gt;Daily: 09:30 - 22:30&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Average price:&lt;/td&gt;
+        &lt;td&gt;$50&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Website:&lt;/td&gt;
+        &lt;td&gt;http://www.dineatbridge.com.sg&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;div class=&quot;c-restaurant__desc&quot;&gt;
+      &lt;p&gt;被纽约时报评选为全球十大热点之一，就冲这个这个名头我们的十大浪漫餐厅推介榜中也必须得有他的一席之地。在这里你可以边吃饭，便低头看着下面像点点一般密密麻麻的人群或者眺望前方360度无死角的观赏者滨海湾金沙的夜景，整个人沉浸在城市的灯火之中！饭后你也可以带着你的爱人去酒吧喝一杯，你侬我侬 (=^_^=)！!&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;c-restaurant-gallery js-flickity&quot; data-flickity-options=&#39;{ &quot;wrapAround&quot; : true, &quot;cellAlign&quot;: &quot;center&quot;, &quot;lazyLoad&quot;: 2 }&#39;&gt;
+    &lt;div class=&quot;c-gallery-cell&quot;&gt;&lt;a href=&quot;https://placehold.it/125/dc143c/ffffff&quot; rel=&quot;simplebox&quot; title=&quot;&quot;&gt;&lt;img src=&quot;https://placehold.it/125/dc143c/ffffff&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;div class=&quot;c-gallery-cell&quot;&gt;&lt;a href=&quot;https://placehold.it/125/ff7f24&quot; rel=&quot;simplebox&quot; title=&quot;&quot;&gt;&lt;img src=&quot;https://placehold.it/125/ff7f24&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;div class=&quot;c-gallery-cell&quot;&gt;&lt;a href=&quot;https://placehold.it/125/ffd700&quot; rel=&quot;simplebox&quot; title=&quot;&quot;&gt;&lt;img src=&quot;https://placehold.it/125/ffd700&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;div class=&quot;c-gallery-cell&quot;&gt;&lt;a href=&quot;https://placehold.it/125/adff2f&quot; rel=&quot;simplebox&quot; title=&quot;&quot;&gt;&lt;img src=&quot;https://placehold.it/125/adff2f&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;c-restaurant-btns&quot;&gt;
+    &lt;button type=&quot;button&quot; class=&quot;o-btn-alt&quot;&gt;分享到微博&lt;/button&gt;
+    &lt;button type=&quot;button&quot; class=&quot;o-btn-alt&quot;&gt;分享到朋友圈&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;c-related&quot;&gt;
+  &lt;h2&gt;猜你会喜欢&lt;/h2&gt;
+  &lt;div class=&quot;c-related-gallery js-flickity&quot; data-flickity-options=&#39;{ &quot;initialIndex&quot;: 1, &quot;wrapAround&quot; : true }&#39;&gt;
+    &lt;div class=&quot;c-gallery-cell o-card&quot;&gt;
+      &lt;div class=&quot;o-gallery__img&quot;&gt;
+        &lt;img src=&quot;http://localhost:1234/img/image.png&quot; alt=&quot;&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;o-card__txt&quot;&gt;
+        &lt;p class=&quot;o-cuisine c-asian&quot;&gt;&lt;span&gt;日韩料理&lt;/span&gt;&lt;/p&gt;
+        &lt;h3&gt;最受欢迎的日料店&lt;/h3&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;c-gallery-cell o-card&quot;&gt;
+      &lt;div class=&quot;o-gallery__img&quot;&gt;
+        &lt;img src=&quot;http://localhost:1234/img/image.png&quot; alt=&quot;&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;o-card__txt&quot;&gt;
+        &lt;p class=&quot;o-cuisine c-asian&quot;&gt;&lt;span&gt;日韩料理&lt;/span&gt;&lt;/p&gt;
+        &lt;h3&gt;最受欢迎的日料店&lt;/h3&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;c-gallery-cell o-card&quot;&gt;
+      &lt;div class=&quot;o-gallery__img&quot;&gt;
+        &lt;img src=&quot;http://localhost:1234/img/image.png&quot; alt=&quot;&quot;&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;o-card__txt&quot;&gt;
+        &lt;p class=&quot;o-cuisine c-asian&quot;&gt;&lt;span&gt;日韩料理&lt;/span&gt;&lt;/p&gt;
+        &lt;h3&gt;最受欢迎的日料店&lt;/h3&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sat, 14 Nov 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:1234/restaurant/</link>
+        <guid isPermaLink="true">http://localhost:1234/restaurant/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Article</title>
+        <description>&lt;section class=&quot;c-article&quot;&gt;
+    &lt;div class=&quot;c-article-masthead o-flex&quot;&gt;
+        &lt;div class=&quot;u-wrapper&quot;&gt;
+            &lt;h1&gt;盘点请假也要去吃的日本料理&lt;/h1&gt;
+            &lt;div class=&quot;c-article-subhead&quot;&gt;
+                &lt;div class=&quot;o-cuisine c-asian&quot;&gt;&lt;span&gt;日韩料理&lt;/span&gt;&lt;/div&gt;
+                &lt;time&gt;2015-11-20&lt;/time&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;c-article__content&quot;&gt;
+        &lt;p&gt;被纽约时报评选为全球十大热点之一，就冲这个这个名头我们的十大浪漫餐厅推介榜中也必须得有他的一席之地。在这里你可以边吃饭，便低头看着下面像点点一般密密麻麻的人群或者眺望前方360度无死角的观赏者滨海湾金沙的夜景，整个人沉浸在城市的灯火之中！饭后你也可以带着你的爱人去酒吧喝一杯，你侬我侬 (=^_^=)！!&lt;/p&gt;
+        &lt;p&gt;被纽约时报评选为全球十大热点之一，就冲这个这个名头我们的十大浪漫餐厅推介榜中也必须得有他的一席之地。在这里你可以边吃饭，便低头看着下面像点点一般密密麻麻的人群或者眺望前方360度无死角的观赏者滨海湾金沙的夜景，整个人沉浸在城市的灯火之中！饭后你也可以带着你的爱人去酒吧喝一杯，你侬我侬 (=^_^=)！!&lt;/p&gt;
+        &lt;p&gt;被纽约时报评选为全球十大热点之一，就冲这个这个名头我们的十大浪漫餐厅推介榜中也必须得有他的一席之地。在这里你可以边吃饭，便低头看着下面像点点一般密密麻麻的人群或者眺望前方360度无死角的观赏者滨海湾金沙的夜景，整个人沉浸在城市的灯火之中！饭后你也可以带着你的爱人去酒吧喝一杯，你侬我侬 (=^_^=)！!&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</description>
+        <pubDate>Sat, 14 Nov 2015 00:00:00 +0800</pubDate>
+        <link>http://localhost:1234/article/</link>
+        <guid isPermaLink="true">http://localhost:1234/article/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
