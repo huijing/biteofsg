@@ -5,15 +5,15 @@
     <description>Theme for Bite of SG website</description>
     <link>http://www.chenhuijing.com/biteofsg/</link>
     <atom:link href="http://www.chenhuijing.com/biteofsg/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Jan 2016 11:32:40 +0800</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 11:32:40 +0800</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 11:40:26 +0800</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 11:40:26 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Restaurant</title>
         <description>&lt;section class=&quot;c-restaurant&quot;&gt;
   &lt;div class=&quot;c-restaurant__img&quot;&gt;
-    &lt;img src=&quot;/img/restaurant.png&quot; alt=&quot;Restaurant image&quot;&gt;
+    &lt;img src=&quot;http://www.chenhuijing.com/biteofsg/img/restaurant.png&quot; alt=&quot;Restaurant image&quot;&gt;
   &lt;/div&gt;
   &lt;div class=&quot;c-restaurant__info&quot;&gt;
     &lt;div class=&quot;u-wrapper&quot;&gt;
@@ -23,7 +23,7 @@
         &lt;address&gt;31 Seah Street&lt;br&gt;Singapore 188387&lt;/address&gt;
       &lt;/div&gt;
       &lt;div class=&quot;u-wrap-right&quot;&gt;
-        &lt;img src=&quot;/img/choice.png&quot; alt=&quot;&quot; class=&quot;c-restaurant__choice&quot;&gt;
+        &lt;img src=&quot;http://www.chenhuijing.com/biteofsg/img/choice.png&quot; alt=&quot;&quot; class=&quot;c-restaurant__choice&quot;&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;table&gt;
@@ -61,7 +61,7 @@
   &lt;div class=&quot;c-related-gallery js-flickity&quot; data-flickity-options=&#39;{ &quot;initialIndex&quot;: 1, &quot;wrapAround&quot; : true }&#39;&gt;
     &lt;div class=&quot;c-gallery-cell o-card&quot;&gt;
       &lt;div class=&quot;o-gallery__img&quot;&gt;
-        &lt;img src=&quot;/img/image.png&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://www.chenhuijing.com/biteofsg/img/image.png&quot; alt=&quot;&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;o-card__txt&quot;&gt;
         &lt;p class=&quot;o-cuisine c-asian&quot;&gt;&lt;span&gt;日韩料理&lt;/span&gt;&lt;/p&gt;
@@ -70,7 +70,7 @@
     &lt;/div&gt;
     &lt;div class=&quot;c-gallery-cell o-card&quot;&gt;
       &lt;div class=&quot;o-gallery__img&quot;&gt;
-        &lt;img src=&quot;/img/image.png&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://www.chenhuijing.com/biteofsg/img/image.png&quot; alt=&quot;&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;o-card__txt&quot;&gt;
         &lt;p class=&quot;o-cuisine c-asian&quot;&gt;&lt;span&gt;日韩料理&lt;/span&gt;&lt;/p&gt;
@@ -79,7 +79,7 @@
     &lt;/div&gt;
     &lt;div class=&quot;c-gallery-cell o-card&quot;&gt;
       &lt;div class=&quot;o-gallery__img&quot;&gt;
-        &lt;img src=&quot;/img/image.png&quot; alt=&quot;&quot;&gt;
+        &lt;img src=&quot;http://www.chenhuijing.com/biteofsg/img/image.png&quot; alt=&quot;&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;o-card__txt&quot;&gt;
         &lt;p class=&quot;o-cuisine c-asian&quot;&gt;&lt;span&gt;日韩料理&lt;/span&gt;&lt;/p&gt;
